@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{379e4446-7a34-4715-bea4-822cc51a4be7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>202_Happy_Number.py</StartupFile>
+    <StartupFile>86_Partition_List.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -30,6 +30,9 @@
     <Compile Include="501_Find_Mode_in_Binary_Tree.py" />
     <Compile Include="514_freedom_trail.py" />
     <Compile Include="71_Simplify_Path.py" />
+    <Compile Include="86_Partition_List.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
