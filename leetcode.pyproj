@@ -29,6 +29,7 @@
     <Compile Include="492_Construct_the_Rectangle.py" />
     <Compile Include="501_Find_Mode_in_Binary_Tree.py" />
     <Compile Include="514_freedom_trail.py" />
+    <Compile Include="57_Insert_Interval.py" />
     <Compile Include="71_Simplify_Path.py" />
     <Compile Include="86_Partition_List.py">
       <SubType>Code</SubType>
