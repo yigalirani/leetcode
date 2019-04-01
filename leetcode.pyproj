@@ -23,6 +23,9 @@
     <Compile Include="202_Happy_Number.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="26_Remove_Duplicates_from_Sorted_Array.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="457_Circular_Array_Loop.py" />
     <Compile Include="485_Max_Consecutive_Ones.py" />
     <Compile Include="486_Predict_the_Winner.py" />
