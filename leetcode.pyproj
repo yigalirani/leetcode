@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{379e4446-7a34-4715-bea4-822cc51a4be7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>86_Partition_List.py</StartupFile>
+    <StartupFile>124_Binary_Tree_Maximum_Path_Sum.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,6 +19,9 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="124_Binary_Tree_Maximum_Path_Sum.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="145_Binary_Tree_Postorder_Traversal.py" />
     <Compile Include="202_Happy_Number.py">
       <SubType>Code</SubType>
@@ -30,6 +33,7 @@
     <Compile Include="485_Max_Consecutive_Ones.py" />
     <Compile Include="486_Predict_the_Winner.py" />
     <Compile Include="492_Construct_the_Rectangle.py" />
+    <Compile Include="4_Median_of_Two_Sorted_Arrays.py" />
     <Compile Include="501_Find_Mode_in_Binary_Tree.py" />
     <Compile Include="514_freedom_trail.py" />
     <Compile Include="57_Insert_Interval.py" />
@@ -37,6 +41,15 @@
     <Compile Include="86_Partition_List.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="usefull.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="viztree.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="notes1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

@@ -1,0 +1,1 @@
+373. Find K Pairs with Smallest Sums: algorithm of two heads advancing together wont work because its does not consider all pairs, when one head progress we abandon all the pairs that have head-1
