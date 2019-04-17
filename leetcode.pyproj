@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{379e4446-7a34-4715-bea4-822cc51a4be7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>124_Binary_Tree_Maximum_Path_Sum.py</StartupFile>
+    <StartupFile>1028_Recover_a_Tree_From_Preorder_Traversal.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,6 +19,9 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1028_Recover_a_Tree_From_Preorder_Traversal.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="124_Binary_Tree_Maximum_Path_Sum.py">
       <SubType>Code</SubType>
     </Compile>
@@ -27,6 +30,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="26_Remove_Duplicates_from_Sorted_Array.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="39_Combination_Sum.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="457_Circular_Array_Loop.py" />
@@ -49,6 +55,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="algs.txt">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="notes1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -1,2 +1,7 @@
 1. simple reqursive binary tree - see the count leafs
 2. complex reqursive binary tree - reqursion retuns two diffrent values: 124
+3. cache variables in a hash - like in two sum
+4. two heads in array  26
+5. detirmenstic parse - 717
+6. reqursive parse by passing cur token pos and returning tree+result token_pos: 1028
+7. append_token function than gets called from innter loop and also at the end: 1018
