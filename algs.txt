@@ -5,3 +5,4 @@
 5. detirmenstic parse - 717
 6. reqursive parse by passing cur token pos and returning tree+result token_pos: 1028
 7. append_token function than gets called from innter loop and also at the end: 1018
+8. collect in array and then sort - 530

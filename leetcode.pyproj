@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{379e4446-7a34-4715-bea4-822cc51a4be7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1028_Recover_a_Tree_From_Preorder_Traversal.py</StartupFile>
+    <StartupFile>13_Roman_to_Integer.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,13 +19,22 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1021_Remove_Outermost_Parentheses.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="1028_Recover_a_Tree_From_Preorder_Traversal.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="124_Binary_Tree_Maximum_Path_Sum.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="13_Roman_to_Integer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="145_Binary_Tree_Postorder_Traversal.py" />
+    <Compile Include="20190501_google_phone_interview_question.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="202_Happy_Number.py">
       <SubType>Code</SubType>
     </Compile>
@@ -42,9 +51,18 @@
     <Compile Include="4_Median_of_Two_Sorted_Arrays.py" />
     <Compile Include="501_Find_Mode_in_Binary_Tree.py" />
     <Compile Include="514_freedom_trail.py" />
+    <Compile Include="530_Minimum_Absolute_Difference_in_BST.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="57_Insert_Interval.py" />
     <Compile Include="71_Simplify_Path.py" />
     <Compile Include="86_Partition_List.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="958_Check_Completeness_of_a_Binary_Tree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="140_Word_Break_II.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="usefull.py">
