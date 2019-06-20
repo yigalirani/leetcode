@@ -1,3 +1,4 @@
+import contextlib,threading
 class TreeNode:
     def __init__(self, val, left=None, right=None):
         self.val = val
@@ -42,7 +43,21 @@ def drawtree(root):
     draw(root, 0, 30*h, 40*h)
     t.hideturtle()
     turtle.mainloop()
-    
+def thread_drawtree(root):
+    thread1 = threading.Thread(target = drawtree, args = (root,))
+    thread1.start()
+from timeit import default_timer as timer
+
+@contextlib.contextmanager 
+def benchmark(name,size=None):
+    start = timer()
+    yield
+    t = timer() - start
+    if size:
+        print(("%s : %0.3g,size %d, %d per sec") % (name, t,size,size//t))
+    else:
+        print(("%s : %0.3g") % (name, t))
+
 if __name__ == '__main__':
     #drawtree(deserialize('[2,-4]'))
     drawtree(deserialize('[-1,5,null,4,null,null,2,-4]'))

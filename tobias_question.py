@@ -1,6 +1,23 @@
 from viztree import *
-def find(root,num):
-    pass
+                                                                                   
+def get_next(root,val):
+    if root.val==val:
+        return root
+    for child in [root.left,root.right]:
+        if child and child.val==val:
+            return child
+    return None
+def find_element_in_complete_tree(root,num): #answer to the question
+    path=[]
+    while num:
+        path.append(num)
+        num=num//2
+    for x in path[::-1]:
+        root=get_next(root,x)
+        if root is None:
+            return False
+    return True
+
 def collect_layer(layer):
     for parent in layer:
         for child in [parent.left,parent.right]:
@@ -31,5 +48,15 @@ def build_tree(last_num):
         layer,start_num=build_layer(layer,start_num,last_num)
     return root
 
-t=build_tree(20)
-drawtree(t)
+
+def test_it(size):
+    with benchmark('build tree',size):
+        t=build_tree(size)
+    #drawtree(t)
+    with benchmark('find in tree'):
+        expect_true=find_element_in_complete_tree(t,size)
+        expect_false=find_element_in_complete_tree(t,size+1)
+    print('expect_true',expect_true)
+    print('expect_true',expect_false)
+
+test_it(10000000)
