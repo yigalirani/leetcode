@@ -59,4 +59,4 @@ def test_it(size):
     print('expect_true',expect_true)
     print('expect_true',expect_false)
 
-test_it(10000000)
+test_it(1000000)

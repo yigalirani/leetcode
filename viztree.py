@@ -54,7 +54,7 @@ def benchmark(name,size=None):
     yield
     t = timer() - start
     if size:
-        print(("%s : %0.3g,size %d, %d per sec") % (name, t,size,size//t))
+        print(("%s : %0.3g secs, size %d, %d per sec") % (name, t,size,size//t))
     else:
         print(("%s : %0.3g") % (name, t))
 
