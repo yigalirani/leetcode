@@ -35,5 +35,6 @@ def deserialize(string):
     return root
 def main():
     tree=deserialize('[-1,5,null,4,null,null,2,-4]')
+    drawtree(tree_)
     print(Solution().maxPathSum(tree))
 main()

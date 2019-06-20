@@ -45,3 +45,11 @@ heap.heapreplace
 
 to convert str to list:
 list(str)
+flaten list:
+grid[i][j] for row in rows(I,J) for (i,j) in row 
+treat first of generator diffrenk:
+r=iter(range(10))
+first=next(r)
+print('flrst',first)
+#print('first',first)
+for row in r:

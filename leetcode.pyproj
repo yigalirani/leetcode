@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{379e4446-7a34-4715-bea4-822cc51a4be7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>1054_Distant_Barcodes.py</StartupFile>
+    <StartupFile>tobias_question.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,10 +22,19 @@
     <Compile Include="1021_Remove_Outermost_Parentheses.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="1022_Sum_of_Root_To_Leaf_Binary_Numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="1028_Recover_a_Tree_From_Preorder_Traversal.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="1054_Distant_Barcodes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1072_Flip_Columns_For_Maximum_Number_of_Equal_Rows.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1089_Duplicate_Zeros.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="124_Binary_Tree_Maximum_Path_Sum.py">
@@ -50,10 +59,16 @@
     <Compile Include="39_Combination_Sum.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="437_Path_Sum_III.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="457_Circular_Array_Loop.py" />
     <Compile Include="485_Max_Consecutive_Ones.py" />
     <Compile Include="486_Predict_the_Winner.py" />
     <Compile Include="492_Construct_the_Rectangle.py" />
+    <Compile Include="494_Target_Sum.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="4_Median_of_Two_Sorted_Arrays.py" />
     <Compile Include="501_Find_Mode_in_Binary_Tree.py" />
     <Compile Include="514_freedom_trail.py" />
@@ -62,13 +77,25 @@
     </Compile>
     <Compile Include="57_Insert_Interval.py" />
     <Compile Include="71_Simplify_Path.py" />
+    <Compile Include="813_Largest_Sum_of_Averages.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="86_Partition_List.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="871_Minimum_Number_of_Refueling_Stops.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="958_Check_Completeness_of_a_Binary_Tree.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="140_Word_Break_II.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tobias_question.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="usefull.py">

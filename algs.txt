@@ -7,3 +7,12 @@
 7. append_token function than gets called from innter loop and also at the end: 1018
 8. collect in array and then sort - 530
 9 array of aacumlative sum. can also be acumlative min/max - 689
+10 to know if a robot performing instructing islimited to a cicle, execute the instructinos 4 times and see if return to base.1041 
+11. in some cases, when doing reqursive binary tree, you have to ask asking if both children are none - 1022 
+12. do do array paritiionig, do the simple alg like in 813, 132
+13 to catch tyos quickly, uses short experssion and partision complex expreion to assigned variables. for exampl: 
+   before: ans=max(ans,avg(start,i)+f(start+1,k-1))
+   after:  a=avg(start,i)
+           b=f(start+1,k-1)//the error stands out now, it should be b=f(i,k-1)/
+           ans=max(ans,a+b)
+14 dynamic progammic using array. for example https://leetcode.com/problems/minimum-number-of-refueling-stops/
