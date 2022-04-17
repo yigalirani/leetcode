@@ -23,10 +23,11 @@ def test_combinations():
         for i,x in enumerate(gen):
             print(i,':',x)
         
-    input=range(3)
-    print_it('input',input)
-    print_it('combinations',itertools.combinations(input,3))
+    input=range(10)
+    #print_it('input',input)
+    #print_it('combinations',itertools.combinations(input,3))
     print_it('permutations',itertools.permutations(input))
+    #print_it('combinations_with_replacement',itertools.combinations_with_replacement(input,2))
 def tokenizer(s):
     ans=''
     for c in s+' ':
@@ -47,10 +48,14 @@ def test_re():
     print(re.split('\+|-',s))
     print([x for x in itertools.grouper(tokenizer(s),3)])
 
+def test_list_of_string():
+    print(set(list("hello wo")))
 if __name__=='__main__':
     #int_of_bool()
     #test_generator_expressions()
     #test_split()
     #test_first()
     #test_combinations()
-    test_re()
+    #test_re()
+    #test_list_of_string()
+    test_combinations()

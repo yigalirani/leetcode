@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{379e4446-7a34-4715-bea4-822cc51a4be7}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>tobias_question.py</StartupFile>
+    <StartupFile>1530_number_of_good_leaf_nodes_pairs.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -34,6 +34,9 @@
     <Compile Include="1072_Flip_Columns_For_Maximum_Number_of_Equal_Rows.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="1081_Smallest_Subsequence_of_Distinct_Characters.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="1089_Duplicate_Zeros.py">
       <SubType>Code</SubType>
     </Compile>
@@ -44,6 +47,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="145_Binary_Tree_Postorder_Traversal.py" />
+    <Compile Include="1530_number_of_good_leaf_nodes_pairs.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="20190501_google_phone_interview_question.py">
       <SubType>Code</SubType>
     </Compile>
@@ -54,6 +60,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="31_Next_Permutation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="322_coin_change.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="39_Combination_Sum.py">
