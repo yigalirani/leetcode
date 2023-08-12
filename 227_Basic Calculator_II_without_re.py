@@ -1,4 +1,4 @@
-import re
+
 def tokenize(s):
   ans=[]
   num=''
@@ -56,4 +56,4 @@ class Solution:
               return ans
             sign=1 if c=='+' else -1
         return read_expr()
-print(Solution().calculate('1*8'))
+print(Solution().calculate('10-2*8'))
