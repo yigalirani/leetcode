@@ -1,23 +1,7 @@
 import re
-def tokenize(s):
-  ans=[]
-  num=''
-  for c in s+'$':
-    if c in '0123456789':
-      num=num+c
-      continue
-    if (num):
-      ans.append(num)
-      num=''
-    if c in '+-*\/$':
-      ans.append(c)
-  return ans
-
-      
 class Solution:
     def calculate(self, s: str) -> int:
-        #tokens=re.findall('\d+|\+|\-|\/|\*|\$',s+'$')
-        tokens=tokenize(s)
+        tokens=re.findall('\d+|\+|\-|\/|\*|\$',s+'$')
         head=0
         def look_ahead():
           return tokens[head]
@@ -56,4 +40,4 @@ class Solution:
               return ans
             sign=1 if c=='+' else -1
         return read_expr()
-print(Solution().calculate('1*8'))
+print(Solution().calculate('10-2*8'))
