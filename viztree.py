@@ -60,4 +60,6 @@ def benchmark(name,size=None):
 
 if __name__ == '__main__':
     #drawtree(deserialize('[2,-4]'))
-    drawtree(deserialize('[-1,5,null,4,null,null,2,-4]'))
+    
+    drawtree(deserialize('[3,1,null,2,null,3]'))
+    ##drawtree(deserialize('[-1,5,null,4,null,null,2,-4]'))

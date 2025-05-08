@@ -7,9 +7,11 @@ class Solution:
         m=len(grid)
         n=len(grid[0])
         def iter_nei(i,j):
+            ans=[]
             for di,dj in [(-1,0),(+1,0),(0,-1),(0,+1)]:
                 if 0<=i+di<m and 0<=j+dj<n:
-                    yield i+di,j+dj
+                    ans.append(i+di,j+dj)
+            return ans
         def mark(i,j):
             if grid[i][j]!=1:
                 return
